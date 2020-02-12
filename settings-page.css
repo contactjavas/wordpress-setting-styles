@@ -1,3 +1,8 @@
+/* Adjust WordPress default styles */
+.settingstuff .form-table .small-text {
+	min-width: 60px;
+}
+
 /* Settings Page */
 .settingstuff,
 .settingstuff * {
@@ -315,5 +320,14 @@
 
 	.settingstuff .neatbox .form-table th {
 		padding-bottom: 10px;
+	}
+}
+
+@media (max-width: 575.32px) {
+	.settingstuff .nav-tab-wrapper .nav-tab {
+		display: block;
+		width: 100%;
+		padding-top: 8px;
+		padding-bottom: 8px;
 	}
 }
